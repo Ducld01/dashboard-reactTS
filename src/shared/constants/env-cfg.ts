@@ -1,0 +1,1 @@
+export const MY_DASHBOARD_ORIGIN = process.env.REACT_APP_MYDASHBOARD_ORIGIN
