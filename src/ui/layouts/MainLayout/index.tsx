@@ -1,7 +1,9 @@
+import { Header } from "./header";
+
 export function MainLayout() {
   return (
     <div>
-      <h1 className="text-orange-300">Vite + React</h1>
+      <Header />
     </div>
   );
 }

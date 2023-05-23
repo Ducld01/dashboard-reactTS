@@ -4,16 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --strictPort --mode devLocal",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "antd": "^5.5.1",
     "axios": "^1.4.0",
     "qs": "^6.11.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "vite-plugin-dynamic-import": "^1.4.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-relay": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.2.1",
