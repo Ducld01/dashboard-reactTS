@@ -1,14 +1,20 @@
 import ReactDOM from "react-dom/client";
 import { App } from "./ui";
-import "./theme/styles/index.css";
 import { BrowserRouter } from "react-router-dom";
+import { ThemeSettingsProvider } from "./shared/contexts/ThemeSetting";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <ThemeSettingsProvider
+    defaultSettings={{
+      themeMode: "light",
+    }}
+  >
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ThemeSettingsProvider>
 );
