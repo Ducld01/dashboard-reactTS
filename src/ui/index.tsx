@@ -1,9 +1,7 @@
+import { Router } from "../routes";
+
 function App() {
-  return (
-    <>
-      <h1 className="text-orange-300">Vite + React</h1>
-    </>
-  );
+  return <Router />;
 }
 
 export { App };
