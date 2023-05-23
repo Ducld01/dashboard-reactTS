@@ -1,8 +1,8 @@
 import { ElementType, Suspense, lazy } from "react";
 import { Navigate, useRoutes } from "react-router-dom";
 //
-import { LoadingScreen } from "../shared/components";
-import { GuestLayout, MainLayout } from "../ui/layouts";
+import { LoadingScreen } from "@/shared/components";
+import { GuestLayout, MainLayout } from "@/ui/layouts";
 
 // eslint-disable-next-line
 const Loadable = (Component: ElementType) => (props: any) => {
@@ -32,4 +32,4 @@ export function Router() {
   ]);
 }
 
-const NotFound = Loadable(lazy(() => import("../ui/pages/not-found")));
+const NotFound = Loadable(lazy(() => import("@/ui/pages/not-found")));
