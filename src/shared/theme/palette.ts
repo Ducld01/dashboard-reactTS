@@ -49,6 +49,8 @@ const COMMON = {
 
   //background
   bge5e: "#fff",
+  //
+  white: "#ffffff",
 };
 
 export const palette = {
