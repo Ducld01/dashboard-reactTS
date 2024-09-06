@@ -13,7 +13,7 @@
     "@ant-design/icons": "^5.1.2",
     "@stitches/react": "^1.2.8",
     "antd": "^5.5.1",
-    "axios": "^1.4.0",
+    "axios": "^1.6.8",
     "qs": "^6.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,7 +21,7 @@
     "react-router-dom": "^6.11.2",
     "vite-plugin-dynamic-import": "^1.4.0",
     "vite-plugin-eslint": "^1.8.1",
-    "vite-plugin-relay": "^2.0.0"
+    "vite-plugin-relay": "^2.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.2.1",
